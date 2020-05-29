@@ -1,20 +1,35 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
-
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+<ion-content>
+  
+<div class="row background">
+  <!------------------for mobile----------------->
+  <div class="container">
+    <div class="col-12">     
+      <div class="signup-form card1">
+        <form action="#" method="post">
+          <h3>SIGN UP</h3>
+          <div class="form-group">                        
+            <div class="form-group has-search">
+              <span><img src="assets/img/mobiile.png" class="form-control-mob-feedback"> </span>
+              <input type="email" class="form-control-mob" name="email" placeholder="Mobile" required="required" />
+            </div>
+          </div>
+          <div class="form-group">            
+            <div class="form-group has-search">
+              <span><img src="assets/img/public.png" width="10px" class="form-control-mob-feedback"></span>
+              <input type="password" class="form-control-mob" name="password" placeholder="Name" required="required" />
+            </div>
+          </div>
+          <div class="form-group">
+              <center><a href=""><img src="assets/img/signup.png" width="150px"></a> </center>
+          </div>
+          
+        </form>
+      </div>
+    </div>
+    
+    
   </div>
+  <!---------------End mobile---------------->
+</div>
+  
 </ion-content>
